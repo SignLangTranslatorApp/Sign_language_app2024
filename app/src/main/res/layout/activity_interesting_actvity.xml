@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InterestingActvity">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="What are you intersted in ?"
+    android:textSize="12pt"
+    android:id="@+id/a1"
+    android:layout_marginStart="12dp"
+    android:layout_marginTop="12pt"
+    />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:id="@+id/g1"
+        android:src="@drawable/g5"
+        android:layout_below="@id/a1"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12pt"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:id="@+id/g2"
+
+        android:src="@drawable/g6"
+        android:layout_toEndOf="@id/g1"
+        android:layout_below="@id/a1"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12pt"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:id="@+id/g3"
+        android:src="@drawable/g7"
+        android:layout_below="@id/g1"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12pt"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:id="@+id/g4"
+
+        android:src="@drawable/g8"
+        android:layout_toEndOf="@id/g1"
+        android:layout_below="@id/g2"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12pt"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/save"
+        android:text="save"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+    />
+</RelativeLayout>

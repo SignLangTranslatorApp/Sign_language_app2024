@@ -1,0 +1,126 @@
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:background="#fff"
+    tools:ignore="HardcodedText">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/gf">
+
+
+
+
+
+
+
+        <ImageView
+            android:id="@+id/textView"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_marginStart="12pt"
+            android:layout_marginTop="12pt"
+            android:layout_gravity="center"
+            android:src="@drawable/welcome"
+            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/textView"
+            android:layout_marginTop="12pt"
+            android:src="@drawable/image" />
+
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+android:layout_below="@id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:background="@drawable/pro"
+            android:gravity="center"
+android:visibility="invisible"
+            android:onClick="translate"
+            android:text="Profile"
+            />
+        <ImageView
+            android:id="@+id/camera1"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/profile"
+            android:layout_marginTop="12dp"
+            android:visibility="gone"
+            android:layout_gravity="center"
+            android:background="@drawable/chose"
+            android:gravity="center"
+            android:onClick="translate"
+            />
+        <ImageView
+            android:id="@+id/dictionary"
+            android:layout_width="300dp"
+            android:layout_below="@id/camera"
+            android:layout_height="50dp"
+            android:layout_marginTop="12dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:src="@drawable/ttyy"
+            android:gravity="center"
+            />
+        <ImageView
+            android:id="@+id/keyboared1"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/dictionary"
+            android:layout_marginTop="12dp"
+            android:layout_gravity="center"
+android:layout_centerHorizontal="true"
+            android:src="@drawable/tra"
+            android:gravity="center"
+
+
+            />
+        <ImageView
+            android:id="@+id/camera"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/profile"
+            android:layout_marginTop="12dp"
+            android:layout_gravity="center"
+            android:background="@drawable/vb"
+            android:gravity="center"
+
+            />
+        <ImageView
+            android:id="@+id/search"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/camera"
+            android:layout_marginTop="12dp"
+            android:layout_gravity="center"
+         android:src="@drawable/bbm"
+            android:gravity="center"
+
+            />
+
+    </LinearLayout>
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/navigation_menu" />
+</androidx.drawerlayout.widget.DrawerLayout>

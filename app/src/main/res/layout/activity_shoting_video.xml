@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".ShotingVideo">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:id="@+id/hh"
+        android:src="@drawable/sh"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginTop="12dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/hh2"
+        android:src="@drawable/vs3"
+     android:layout_below="@id/hh"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/hh3"
+        android:src="@drawable/vs4"
+        android:layout_below="@id/hh2"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/shoting"
+        android:src="@drawable/shoting"
+      android:layout_marginBottom="123dp"
+        />
+
+</RelativeLayout>
